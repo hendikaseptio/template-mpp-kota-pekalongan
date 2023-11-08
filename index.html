@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beranda</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="assets/css/vendors/bootstrap-custom.css">
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	
+</head>
+<body>
+	<!-- header -->
+	<header id="navbar_top">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img id="logo" src="assets/img/logo/white.png" height="50px" alt="">
+				</a>
+				<button class="navbar-toggler" id="btn-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="profil.html">Profil</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="berita.html">Berita</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="daftar_instansi.html">Instansi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="daftar_layanan.html">Layanan</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="galeri.html">Galery</a>
+						</li>
+					</ul>
+					<div class="d-flex">
+						<a href="login.html" id="btn-login" class="me-2 btn btn-outline-light"><i class="bi bi-box-arrow-in-right"></i> Masuk</a>
+						<a href="daftar_layanan.html" id="btn-antrian" class="me-2 btn btn-light"><i class="bi bi-ticket-perforated"></i> Ambil Antrian !</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- end header -->
+	<!-- banner -->
+	<!-- <div class="bg-gradient"></div> -->
+	<section class=" bg-gradient">
+		<div class="container py-5">
+			<div class="swiper bannerSwiper pt-5">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="row align-items-center">
+							<div class="col-md-6 text-white">
+								<span class="text-walikota"></span>
+								<p>MPP ini adalah tempat yang dirancang untuk memenuhi berbagai kebutuhan administratif Anda. Di sini, Anda dapat mengurus berbagai dokumen seperti Kartu Tanda Penduduk (KTP), perizinan usaha, izin bangunan, akta kelahiran, akta kematian, dan banyak lagi, semua dalam satu lokasi yang nyaman.</p>
+								<a href="daftar_layanan.html" class="btn btn-light"><i class="bi bi-ticket-perforated me-2"></i>Ambil Antrian !</a>
+							</div>
+							<div class="col-md-6 text-center text-md-end">
+								<img src="assets/img/banner/walikota.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<!-- <img src="assets/img/banner/banner-xl.png" class="img-fluid w-100" alt=""> -->
+					</div>
+					<div class="swiper-slide">
+						<div class="row align-items-center">
+							<div class="col-md-6 text-white">
+								<span class="text-kadin"></span>
+								<!-- <h1>Mari kita manfaatkan MPP ini dengan baik</h1> -->
+								<p>Datanglah ke sini, gunakan layanan yang ada, dan buatlah MPP menjadi pusat interaksi antara pemerintah dan warga. Bersama, kita dapat menciptakan sebuah kota yang lebih efisien, lebih transparan, dan lebih baik.</p>
+								<a href="daftar_layanan.html" class="btn btn-light"><i class="bi bi-list-ul me-2"></i> Lihat Semua Layanan</a>
+							</div>
+							<div class="col-md-6 text-center text-md-end">
+								<img src="assets/img/banner/kadin.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<!-- <img src="assets/img/banner/banner-xl.png" class="img-fluid w-100" alt=""> -->
+					</div>
+					<div class="swiper-slide">
+						<div class="row align-items-center">
+							<div class="col-md-6 text-white">
+								<span class="text-mpp"></span>
+								<!-- <h1>Nikmati kenyamanan layanan publik secara online</h1> -->
+								<p>Dengan akses yang mudah dan cepat, website Mal Pelayanan Publik Kota Pekalongan merupakan solusi yang efisien untuk memenuhi kebutuhan pelayanan publik Anda. Mari kita tingkatkan kualitas hidup kita dan mendukung kemajuan Kota Pekalongan dengan memanfaatkan fasilitas ini. Ayo, kunjungi segera website resmi Mal Pelayanan Publik Kota Pekalongan dan nikmati kenyamanan layanan publik online yang telah disediakan untuk kesejahteraan kita bersama!</p>
+							</div>
+							<div class="col-md-6 text-center text-md-end">
+								<img src="assets/img/banner/mpp.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<!-- <img src="assets/img/banner/banner-xl.png" class="img-fluid w-100" alt=""> -->
+					</div>
+				</div>
+				<!-- <div class="swiper-button-next"></div> -->
+				<!-- <div class="swiper-button-prev"></div> -->
+			</div>
+		</div>
+	</section>
+	<!-- end banner -->
+	<!-- welcome -->
+	<section class="">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class=" col-md-6 mt-4 text-end pb-4 pe-md-5">
+					<img src="http://localhost/si-investa/assets/img/kota%20pekalongan.jpg" alt="" class="img-fluid rounded-4" >
+				</div>
+				<div class="col-md-6">
+					<h1>Selamat Datang di Mal Pelayanan Publik Kota Pekalongan</h1>
+					<p>Selamat datang di Mal Pelayanan Publik Kota Pekalongan! Kami siap melayani Anda dengan berbagai layanan yang tersedia di sini. Apakah ada yang dapat kami bantu atau informasi yang Anda butuhkan? Jangan ragu untuk bertanya atau meminta bantuan jika Anda memerlukan informasi lebih lanjut. Terima kasih atas kunjungan Anda, dan semoga Anda memiliki pengalaman yang menyenangkan di Mal Pelayanan Publik Kota Pekalongan.</p>
+					<a href="profil.html" class="btn btn-primary"><i class="bi bi-caret-right-fill"></i> Selengkapnya</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- berita -->
+	<section class="">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-3">
+					<h1>Berita Terbaru</h1>
+					<p>Dapatkan informasi terupdate mengenai pelayanan MPP kota Pekalongan</p>
+					<a href="berita.html" class="btn btn-primary"><i class="bi bi-caret-right-fill"></i> Selengkapnya</a>
+				</div>
+				<div class="col-md-9">
+					<div class="swiper mySwiperBerita py-2">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="card">
+									<img height="250px" src="https://cdn.pixabay.com/photo/2017/04/24/13/37/architecture-2256489_960_720.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Transformasi Digital Mal Pelayanan Publik: Menyederhanakan Akses Pelayanan Publik</h5>
+										<p class="card-text">Dalam era transformasi digital, mal pelayanan publik menjadi pusat inovasi yang menyederhanakan akses ke layanan pemerintah.</p>
+										<a href="detail_berita.html" class="btn btn-primary"><i class="bi bi-book me-2"></i> Detail</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img height="250px" src="https://cdn.pixabay.com/photo/2015/07/17/22/42/typing-849806_960_720.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Mal Pelayanan Publik: Meningkatkan Efisiensi Pemerintahan Lokal</h5>
+										<p class="card-text">Mal pelayanan publik bukan hanya tempat untuk menerima layanan, tetapi juga pusat efisiensi pemerintahan lokal.</p>
+										<a href="detail_berita.html" class="btn btn-primary"><i class="bi bi-book me-2"></i> Detail</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img height="250px" src="https://cdn.pixabay.com/photo/2014/08/26/13/52/parking-427955_960_720.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Inovasi di Mal Pelayanan Publik: Penerapan Teknologi untuk Kemudahan Masyarakat</h5>
+										<p class="card-text">Penerapan teknologi terkini seperti layanan online, kios pintar, dan kecerdasan buatan telah mengubah wajah mal pelayanan publik.</p>
+										<a href="detail_berita.html" class="btn btn-primary"><i class="bi bi-book me-2"></i> Detail</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img height="250px" src="https://cdn.pixabay.com/photo/2016/09/02/18/38/factory-1639990_960_720.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Mengoptimalkan Pelayanan Publik di Kota Pekalongan melalui Mal Pelayanan Publik</h5>
+										<p class="card-text">Kota Pekalongan, yang terletak di Jawa Tengah, Indonesia, telah mengambil langkah inovatif untuk meningkatkan kualitas pelayanan publik yang diberikan kepada warga dan penduduknya.</p>
+										<a href="detail_berita.html" class="btn btn-primary"><i class="bi bi-book me-2"></i> Detail</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- layanan -->
+	<section>
+		<div class="container">
+			<div class="text-center">
+				<h1 class="mb-3">Layanan Yang Tersedia</h1>
+				<p>Berikut ini adalah layanan yang sering dikunjungi di mal pelayanan publik, anda juga bisa mencari layanan sesuai kebutuhan anda dengan mengisi form cari dibawah ini</p>
+				<form action="" method="get" class="col-7 m-auto mb-4">
+					<div class="row">
+						<div class="col-10">
+							<input type="text" name="cari" id="cari" placeholder="cari layanan" class="form-control">
+						</div>
+						<div class="col-auto">
+							<button class="btn btn-primary"><i class="bi bi-search me-2"></i>Cari</button>
+						</div>
+					</div>
+				</form>
+				
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 col-lg-3 p-2">
+					<div class="card shadow">
+						<img src="https://media.istockphoto.com/id/1282215918/id/foto/dokumen-sepanjang-jalan.jpg?s=612x612&w=0&k=20&c=ABUyojbO3uxJYOcBpzQqFG-yC4r8Nm2obhunUtiqu_Q=" class="card-img-top" alt="">
+						<div class="card-body">
+							<p class="mb-0">Surat Izin Praktek Apoteker</p>
+							<p class="text-uppercase text-secondary">DPMPTSP Kota Pekalongan</p>
+							<div class="d-grid">
+								<a href="detail_layanan.html" class="btn btn-outline-primary">Detail Layanan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-3 p-2">
+					<div class="card shadow">
+						<img src="https://media.istockphoto.com/id/1282215918/id/foto/dokumen-sepanjang-jalan.jpg?s=612x612&w=0&k=20&c=ABUyojbO3uxJYOcBpzQqFG-yC4r8Nm2obhunUtiqu_Q=" class="card-img-top" alt="">
+						<div class="card-body">
+							<p class="mb-0">Surat Izin Praktek Apoteker</p>
+							<p class="text-uppercase text-secondary">DPMPTSP Kota Pekalongan</p>
+							<div class="d-grid">
+								<a href="detail_layanan.html" class="btn btn-outline-primary">Detail Layanan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-3 p-2">
+					<div class="card shadow">
+						<img src="https://media.istockphoto.com/id/1282215918/id/foto/dokumen-sepanjang-jalan.jpg?s=612x612&w=0&k=20&c=ABUyojbO3uxJYOcBpzQqFG-yC4r8Nm2obhunUtiqu_Q=" class="card-img-top" alt="">
+						<div class="card-body">
+							<p class="mb-0">Surat Izin Praktek Apoteker</p>
+							<p class="text-uppercase text-secondary">DPMPTSP Kota Pekalongan</p>
+							<div class="d-grid">
+								<a href="detail_layanan.html" class="btn btn-outline-primary">Detail Layanan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-3 p-2">
+					<div class="card shadow">
+						<img src="https://media.istockphoto.com/id/1282215918/id/foto/dokumen-sepanjang-jalan.jpg?s=612x612&w=0&k=20&c=ABUyojbO3uxJYOcBpzQqFG-yC4r8Nm2obhunUtiqu_Q=" class="card-img-top" alt="">
+						<div class="card-body">
+							<p class="mb-0">Surat Izin Praktek Apoteker</p>
+							<p class="text-uppercase text-secondary">DPMPTSP Kota Pekalongan</p>
+							<div class="d-grid">
+								<a href="detail_layanan.html" class="btn btn-outline-primary">Detail Layanan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-3 p-2">
+					<div class="card shadow">
+						<img src="https://media.istockphoto.com/id/1372221048/id/foto/empat-rekan-bisnis-berbagi-beberapa-ide-bisnis-tentang-proyek-arsitektur-baru-di-kantor.jpg?s=612x612&w=0&k=20&c=xEoavKSeQPawmlFB7CsBtFWkFGW0SRhK8vHDp167BRA=" class="card-img-top" alt="">
+						<div class="card-body">
+							<p class="mb-0">Surat Izin Praktek Apoteker</p>
+							<p class="text-uppercase text-secondary">DPMPTSP Kota Pekalongan</p>
+							<div class="d-grid">
+								<a href="detail_layanan.html" class="btn btn-outline-primary">Detail Layanan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-3 p-2">
+					<div class="card shadow">
+						<img src="https://media.istockphoto.com/id/1372221048/id/foto/empat-rekan-bisnis-berbagi-beberapa-ide-bisnis-tentang-proyek-arsitektur-baru-di-kantor.jpg?s=612x612&w=0&k=20&c=xEoavKSeQPawmlFB7CsBtFWkFGW0SRhK8vHDp167BRA=" class="card-img-top" alt="">
+						<div class="card-body">
+							<p class="mb-0">Surat Izin Praktek Apoteker</p>
+							<p class="text-uppercase text-secondary">DPMPTSP Kota Pekalongan</p>
+							<div class="d-grid">
+								<a href="detail_layanan.html" class="btn btn-outline-primary">Detail Layanan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-3 p-2">
+					<div class="card shadow">
+						<img src="https://media.istockphoto.com/id/1372221048/id/foto/empat-rekan-bisnis-berbagi-beberapa-ide-bisnis-tentang-proyek-arsitektur-baru-di-kantor.jpg?s=612x612&w=0&k=20&c=xEoavKSeQPawmlFB7CsBtFWkFGW0SRhK8vHDp167BRA=" class="card-img-top" alt="">
+						<div class="card-body">
+							<p class="mb-0">Surat Izin Praktek Apoteker</p>
+							<p class="text-uppercase text-secondary">DPMPTSP Kota Pekalongan</p>
+							<div class="d-grid">
+								<a href="detail_layanan.html" class="btn btn-outline-primary">Detail Layanan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-3 p-2">
+					<div class="card shadow">
+						<img src="https://media.istockphoto.com/id/1372221048/id/foto/empat-rekan-bisnis-berbagi-beberapa-ide-bisnis-tentang-proyek-arsitektur-baru-di-kantor.jpg?s=612x612&w=0&k=20&c=xEoavKSeQPawmlFB7CsBtFWkFGW0SRhK8vHDp167BRA=" class="card-img-top" alt="">
+						<div class="card-body">
+							<p class="mb-0">Surat Izin Praktek Apoteker</p>
+							<p class="text-uppercase text-secondary">DPMPTSP Kota Pekalongan</p>
+							<div class="d-grid">
+								<a href="detail_layanan.html" class="btn btn-outline-primary">Detail Layanan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- alur -->
+	<section class="">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-5">
+					<h1>Bagaimana Alur Layananya?</h1>
+				</div>
+				<div class=" col-md-7 mt-4">
+					<div class="card shadow mb-3">
+						<div class="card-body">
+							<div class="d-flex align-items-start">
+								<i class="text-primary fs-1 bi bi-phone"></i>
+								<div class="ms-3">
+									<h5>Daftar Antrian</h5>
+									<p>Anda dapat mendaftar secara online menggunakan aplikasi web</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card shadow mb-3">
+						<div class="card-body">
+							<div class="d-flex align-items-start">
+								<i class="text-primary fs-1 bi bi-megaphone"></i>
+								<div class="ms-3">
+									<h5>Menunggu Panggilan</h5>
+									<p>Pemberitahuan panggilan dapat dilakukan secara audio, visual dan notif di email. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card shadow mb-3">
+						<div class="card-body">
+							<div class="d-flex align-items-start">
+								<i class="text-primary fs-1 bi bi-check2-square"></i>
+								<div class="ms-3">
+									<h5>Selesai</h5>
+									<p>Selamat layanan yang anda butuhkan sudah terlayani</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-sm-6 col-md-4 mt-4">
+				</div>
+				<div class="col-sm-6 col-md-4 mt-4">
+				</div> -->
+			</div>
+		</div>
+	</section>
+	<!-- end alur -->
+	<!-- grafik -->
+	<section class=" bg-gradient">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-7">
+					<div class="card card-body shadow">
+						<div class="text-center">
+							<canvas id="myChart" width="" height=""></canvas>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 text-white">
+					<h3>Grafik Pelayanan</h3>
+					<p>Grafik Pengunjung di Mal Pelayanan Publik Kota Pekalongan menggambarkan pertumbuhan signifikan dalam jumlah warga yang menggunakan fasilitas ini sejak dibuka.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- daftar layanan -->
+	
+	<!-- end daftar layanan -->
+	<!-- galery -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-4 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2016/09/02/18/38/factory-1639990_960_720.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-4 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2018/04/20/22/18/factory-3337207_640.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-4 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2020/01/27/10/24/pollution-4796858_640.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-8 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2017/05/21/09/25/woman-2330844_640.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-4 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2019/11/10/05/53/indonesia-4614985_640.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-3 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_960_720.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-6 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2015/11/17/18/59/architecture-1048092_960_720.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-3 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2016/03/22/00/45/multi-storey-car-park-1271919_640.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-5 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2016/11/29/05/55/adult-1867665_640.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-lg-7 p-1" style="height: 250px;">
+					<img class="object-fit fit-center rounded-4" src="https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_640.jpg" alt="">
+				</div>
+			</div>
+			<div class="mt-3 text-center">
+				<a href="galeri.html" class="btn btn-primary"><i class="bi bi-images me-2"></i>Buka Galeri Foto</a>
+			</div>
+		</div>
+	</section>
+	<!-- tautan terkait -->
+	<section class="">
+		<div class="container">
+			<!-- <div class="card shadow mt-4">
+				<div class="card-header"><i class="bi bi-link-45deg me-2"></i>Tautan Terkait</div>
+				<div class="card-body"> -->
+					<div class="row justify-content-center">
+						<div class="col-auto p-2">
+							<div class="card card-body bg-light border-0">
+								
+								<img src="https://s3.oss.go.id/oss/cms/LOGO_KEMENTERIAN_INVESTASI-BKPM_1-9cb9b09deb20601e17538c84277f6bd8.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<div class="col-auto p-2">
+							<div class="card card-body bg-light border-0">
+								
+								<img src="https://s3.oss.go.id/oss/cms/Kementerian-Kelautan-dan-Perikanan-1655f7dcb9b84d1459d1ea042216af2b.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<div class="col-auto p-2">
+							<div class="card card-body bg-light border-0">
+								
+								<img src="https://s3.oss.go.id/oss/cms/Kementerian-Pertanian-5cfc271b629285d205324fe9d6aaef3c.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<div class="col-auto p-2">
+							<div class="card card-body bg-light border-0">
+								
+								<img src="https://s3.oss.go.id/oss/cms/Kementerian-Lingkungan-Hidup-dan-Kehutanan-384b8c8db2dc03fbd121b8c3785abfb3.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<div class="col-auto p-2">
+							<div class="card card-body bg-light border-0">
+								
+								<img src="https://s3.oss.go.id/oss/cms/Kementerian-Energi-dan-Sumber-Daya-Mineral-f37960f32a0f2c6c23c509af06dd508f.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<div class="col-auto p-2">
+							<div class="card card-body bg-light border-0">
+								
+								<img src="https://s3.oss.go.id/oss/cms/Badan-Pengawas-Tenaga-Nuklir-Nasional-d979ed46a6ef496dc88a8f3a50471d4c.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<div class="col-auto p-2">
+							<div class="card card-body bg-light border-0">
+								
+								<img src="https://s3.oss.go.id/oss/cms/Kementerian-Perindustrian-64c80cc375be9353e2d518a20a5b28c6.png" class="img-fluid" alt="">
+							</div>
+						</div>
+						<div class="col-auto p-2">
+							<div class="card card-body bg-light border-0">
+								
+								<img src="https://s3.oss.go.id/oss/cms/KEMENTERIAN-PERDAGNGAN-0231feb049782d4d976f65622166cf19.png" class="img-fluid" alt="">
+							</div>
+						</div>
+					<!-- </div>
+				</div>
+			</div> -->
+		</div>
+	</section>
+	<!-- end tautan terkait -->
+	<footer class="bg-primary text-light mt-4">
+		<div class="container">
+			<div class="col-md-6">
+				<img src="assets/img/logo/white.png" height="50px" class="mb-4" alt="">
+				<p>Jl. Jaksa Agung R. Soeprapto No. 1, Podosugih, Pekalongan Barat, Kota Pekalongan</p>					
+			</div>
+			<hr>
+			<div class="row justify-content-between">
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<small>Hak cipta © 2023 MPP Kota Pekalongan - All Rights Reserved</small>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6 ">
+					<div class="d-flex justify-content-end">
+						<a href="#" class="rounded-circle btn btn-sm btn-outline-light me-2"><i class="bi bi-whatsapp"></i></a>
+						<a href="#" class="rounded-circle btn btn-sm btn-outline-light me-2"><i class="bi bi-facebook"></i></a>
+						<a href="#" class="rounded-circle btn btn-sm btn-outline-light me-2"><i class="bi bi-instagram"></i></a>
+						<a href="#" class="rounded-circle btn btn-sm btn-outline-light me-2"><i class="bi bi-envelope"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+	const myCollapsible = document.getElementById('navbarSupportedContent')
+	document.addEventListener("DOMContentLoaded", function(){
+		window.addEventListener('scroll', function() {
+			if (window.scrollY > 300) {
+				document.getElementById('navbar_top').classList.add('fixed-top');
+				document.getElementById('btn-login').classList.remove('btn-outline-light');
+				document.getElementById('btn-login').classList.add('btn-outline-primary');
+				document.getElementById('btn-antrian').classList.remove("btn-light");
+				document.getElementById('btn-antrian').classList.add("btn-primary");
+				document.getElementById('logo').src="assets/img/logo/colored.png";
+			} else {
+				if(myCollapsible.classList.contains('show')){
+					document.getElementById('navbar_top').classList.add('fixed-top');
+					document.getElementById('btn-login').classList.remove('btn-outline-light');
+					document.getElementById('btn-login').classList.add('btn-outline-primary');
+					document.getElementById('btn-antrian').classList.remove("btn-light");
+					document.getElementById('btn-antrian').classList.add("btn-primary");
+
+					document.getElementById('logo').src="assets/img/logo/colored.png";
+				}else {
+					document.getElementById('navbar_top').classList.remove('fixed-top');
+					document.getElementById('btn-login').classList.remove('btn-outline-primary');
+					document.getElementById('btn-antrian').classList.remove("btn-primary");
+					document.getElementById('btn-login').classList.add('btn-outline-light');
+					document.getElementById('btn-antrian').classList.add("btn-light");
+					document.getElementById('logo').src="assets/img/logo/white.png";
+				}
+			} 
+		});
+	}); 
+	myCollapsible.addEventListener('shown.bs.collapse', event => {
+		document.getElementById('navbar_top').classList.add('fixed-top');
+		document.getElementById('btn-login').classList.remove('btn-outline-light');
+		document.getElementById('btn-login').classList.add('btn-outline-primary');
+		document.getElementById('btn-antrian').classList.remove("btn-light");
+		document.getElementById('btn-antrian').classList.add("btn-primary");
+
+		document.getElementById('logo').src="assets/img/logo/colored.png";
+	})
+	myCollapsible.addEventListener('hidden.bs.collapse', event => {
+		if (window.scrollY < 300) {
+			document.getElementById('navbar_top').classList.remove('fixed-top');
+			document.getElementById('btn-login').classList.remove('btn-outline-primary');
+			document.getElementById('btn-antrian').classList.remove("btn-primary");
+			document.getElementById('btn-login').classList.add('btn-outline-light');
+			document.getElementById('btn-antrian').classList.add("btn-light");
+			document.getElementById('logo').src="assets/img/logo/white.png";
+		}
+	})
+
+	// banner 
+	var swiper = new Swiper(".bannerSwiper", {
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+		autoplay: {
+			delay: 5500,
+			disableOnInteraction: false,
+		},
+	});
+
+	// typed js
+	var textWalikota = {
+		strings: ['<h1>Mal Pelayanan Publik</h1>'],
+		typeSpeed: 60,
+		loop: true,
+		backSpeed: 0,
+		backDelay: 500,
+	};
+	var textKadin = {
+		strings: ['<h1>Mari kita manfaatkan MPP ini dengan baik</h1>'],
+		typeSpeed: 60,
+		loop: true,
+		backSpeed: 0,
+		backDelay: 500,
+	};
+	var textMPP = {
+		strings: ['<h1>Nikmati kenyamanan layanan publik secara online</h1>'],
+		typeSpeed: 60,
+		loop: true,
+		backSpeed: 0,
+		backDelay: 500,
+	};
+	var typed = new Typed('.text-walikota', textWalikota);
+	var typed = new Typed('.text-kadin', textKadin);
+	var typed = new Typed('.text-mpp', textMPP);
+
+	// berita 
+	var swiper = new Swiper(".mySwiperBerita", {
+      slidesPerView: 1,
+      centeredSlides: true,
+      spaceBetween: 20,
+      autoplay: {
+      	delay: 2500,
+      	disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+      },
+    });
+
+	// grafik
+	const ctx = document.getElementById('myChart');
+
+	new Chart(ctx, {
+		type: 'bar',
+		data: {
+			labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+			datasets: [{
+				label: '# of Votes',
+				data: [12, 19, 3, 5, 2, 3],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			scales: {
+				y: {
+					beginAtZero: true
+				}
+			}
+		}
+	});
+</script>
+</html>

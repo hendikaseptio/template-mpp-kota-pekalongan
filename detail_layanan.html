@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Detail Layanan</title>
+	<!-- css -->
+	<link rel="stylesheet" href="assets/css/vendors/bootstrap-custom.css">
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+	<!-- header -->
+	<header id="navbar_top">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img id="logo" src="assets/img/logo/white.png" height="50px" alt="">
+				</a>
+				<button class="navbar-toggler" id="btn-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="profil.html">Profil</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="berita.html">Berita</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="daftar_instansi.html">Instansi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="daftar_layanan.html">Layanan</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="galeri.html">Galeri</a>
+						</li>
+					</ul>
+					<div class="d-flex">
+						<a href="login.html" id="btn-login" class="me-2 btn btn-outline-light"><i class="bi bi-box-arrow-in-right"></i> Masuk</a>
+						<a href="daftar_layanan.html" id="btn-antrian" class="me-2 btn btn-light"><i class="bi bi-ticket-perforated"></i> Ambil Antrian !</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- end header -->
+	<!-- banner -->
+	<section class="bg-gradient">
+		<div class="container">
+			<div class="pt-4 text-white">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="index.html" class="link-light">Beranda</a></li>
+						<li class="breadcrumb-item"><a href="daftar_layanan.html" class="link-light">Daftar Layanan</a></li>
+						<li class="breadcrumb-item active text-white" aria-current="page"><div class="btn btn-light btn-sm">Detail Layanan</div></li>
+					</ol>
+				</nav>
+				<h3 class="text-uppercase">Detail Surat Izin Praktek Apoteker </h3>
+			</div>
+		</div>
+	</section>
+	<!-- content -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h4>Deskripsi Layanan</h4>
+					<p>Surat Izin Praktek Apoteker adalah dokumen resmi yang diberikan oleh otoritas yang berwenang, seperti Dewan Apoteker atau lembaga sejenis, kepada individu yang telah memenuhi persyaratan pendidikan dan pelatihan yang ditetapkan untuk menjalankan profesi apoteker. Izin ini memungkinkan seseorang untuk secara sah menjalankan praktik apoteker, yang melibatkan pengelolaan dan distribusi obat-obatan serta memberikan konseling farmasi kepada pasien.</p>
+					<div class="card shadow mb-3">
+						<div class="card-header">
+							<ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button class="nav-link active" id="persyaratan-tab" data-bs-toggle="tab" data-bs-target="#persyaratan-tab-pane" type="button" role="tab" aria-controls="persyaratan-tab-pane" aria-selected="true"><i class="bi bi-list-ul me-2"></i> Persyaratan</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="hukum-tab" data-bs-toggle="tab" data-bs-target="#hukum-tab-pane" type="button" role="tab" aria-controls="hukum-tab-pane" aria-selected="false"><i class="bi bi-bank me-2"></i>Dasar Hukum</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="mekanisme-tab" data-bs-toggle="tab" data-bs-target="#mekanisme-tab-pane" type="button" role="tab" aria-controls="mekanisme-tab-pane" aria-selected="false"><i class="bi bi-cpu me-2"></i>Mekanisme Pelayanan</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="biaya-tab" data-bs-toggle="tab" data-bs-target="#biaya-tab-pane" type="button" role="tab" aria-controls="biaya-tab-pane" aria-selected="false"><i class="bi bi-cash-coin me-2"></i>Biaya</button>
+								</li>
+
+							</ul>
+						</div>
+						<div class="card-body">
+							<div class="tab-content" id="myTabContent">
+								<div class="tab-pane fade show active" id="persyaratan-tab-pane" role="tabpanel" aria-labelledby="persyaratan-tab" tabindex="0">
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th>No</th>
+												<th>Nama Persyaratan</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>1.</td>
+												<td>Scanan KTP Asli Pemohon </td>
+											</tr>
+											<tr>
+												<td>2.</td>
+												<td>Surat Pernyataan Pemohon</td>
+											</tr>
+											<tr>
+												<td>3.</td>
+												<td>Scanan Ijazah Asli</td>
+											</tr>
+											<tr>
+												<td>4.</td>
+												<td>Scanan Surat Keterangan sehat dari dokter</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="tab-pane fade" id="hukum-tab-pane" role="tabpanel" aria-labelledby="hukum-tab" tabindex="0">
+									<p>Undang-undang Nomor 36 Tahun 2014 tentang Tenaga Kesehatan Peraturan Menteri Kesehatan Republik Indonesia Nomor 17 tahun 2013 tentang perubahan atas peraturan Menteri Kesehatan Nomor HK. 02.02/Menkes/148/1/2010 tentang Izin dan Penyelenggaraan Praktik Perawat</p>
+								</div>
+								<div class="tab-pane fade" id="mekanisme-tab-pane" role="tabpanel" aria-labelledby="mekanisme-tab" tabindex="0">
+									<p>Waktu proses 5 Hari Kerja.</p>
+								</div>
+								<div class="tab-pane fade" id="biaya-tab-pane" role="tabpanel" aria-labelledby="biaya-tab" tabindex="0">
+									<p>Gratis</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="sticky-top">
+						 <div class="card shadow mb-3">
+						 	<div class="card-body">
+						 		<div class="d-grid">
+						 			<a href="login.html" class="btn btn-primary"><i class="bi bi-send"></i> Daftar Antrian</a>
+						 		</div>
+						 	</div>
+						 </div>
+						 <div class="card shadow mb-3">
+						 	<div class="card-body">
+						 		<div class="d-flex justify-content-between align-items-center">
+						 			<img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Lambang_Kota_Pekalongan.png" class="img-fluid w-25 me-2" alt="">
+						 			<a href="detail_instansi.html" class="text-decoration-none"><b>Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu</b></a>
+						 		</div>
+						 	</div>
+						 </div>
+						 <div class="card shadow mb-3">
+						 	<div class="card-header"><i class="bi bi-clock me-2"></i>Jam Pelayanan</div>
+						 	<div class="card-body">
+						 		<table class="table table-striped">
+						 			<thead>
+						 				<tr>
+						 					<th>Hari</th>
+						 					<th>Jam</th>
+						 				</tr>
+						 			</thead>
+						 			<tbody>
+						 				<tr>
+						 					<td>Senin</td>
+						 					<td>10:00-17:00</td>
+						 				</tr>
+						 				<tr>
+						 					<td>Rabu</td>
+						 					<td>10:00-17:00</td>
+						 				</tr>
+						 				<tr>
+						 					<td>Kamis</td>
+						 					<td>10:00-17:00</td>
+						 				</tr>
+						 			</tbody>
+						 		</table>
+						 	</div>
+						 </div>
+					</div>
+					
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer class="bg-primary text-light mt-4">
+		<div class="container">
+			<div class="col-md-6">
+				<img src="assets/img/logo/white.png" height="50px" class="mb-4" alt="">
+				<p>Jl. Jaksa Agung R. Soeprapto No. 1, Podosugih, Pekalongan Barat, Kota Pekalongan</p>					
+			</div>
+			<hr>
+			<div class="row justify-content-between">
+				<div class="col-sm-6 col-md-6 col-lg-6">
+					<small>Hak cipta © 2023 MPP Kota Pekalongan - All Rights Reserved</small>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6 ">
+					<div class="d-flex justify-content-end">
+						<a href="#" class="rounded-circle btn btn-sm btn-outline-light me-2"><i class="bi bi-whatsapp"></i></a>
+						<a href="#" class="rounded-circle btn btn-sm btn-outline-light me-2"><i class="bi bi-facebook"></i></a>
+						<a href="#" class="rounded-circle btn btn-sm btn-outline-light me-2"><i class="bi bi-instagram"></i></a>
+						<a href="#" class="rounded-circle btn btn-sm btn-outline-light me-2"><i class="bi bi-envelope"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+	<script>
+		const myCollapsible = document.getElementById('navbarSupportedContent')
+		document.addEventListener("DOMContentLoaded", function(){
+			window.addEventListener('scroll', function() {
+				if (window.scrollY > 300) {
+					document.getElementById('navbar_top').classList.add('fixed-top');
+					document.getElementById('btn-login').classList.remove('btn-outline-light');
+					document.getElementById('btn-login').classList.add('btn-outline-primary');
+					document.getElementById('btn-antrian').classList.remove("btn-light");
+					document.getElementById('btn-antrian').classList.add("btn-primary");
+					document.getElementById('logo').src="assets/img/logo/colored.png";
+				} else {
+					if(myCollapsible.classList.contains('show')){
+						document.getElementById('navbar_top').classList.add('fixed-top');
+						document.getElementById('btn-login').classList.remove('btn-outline-light');
+						document.getElementById('btn-login').classList.add('btn-outline-primary');
+						document.getElementById('btn-antrian').classList.remove("btn-light");
+						document.getElementById('btn-antrian').classList.add("btn-primary");
+
+						document.getElementById('logo').src="assets/img/logo/colored.png";
+					}else {
+						document.getElementById('navbar_top').classList.remove('fixed-top');
+						document.getElementById('btn-login').classList.remove('btn-outline-primary');
+						document.getElementById('btn-antrian').classList.remove("btn-primary");
+						document.getElementById('btn-login').classList.add('btn-outline-light');
+						document.getElementById('btn-antrian').classList.add("btn-light");
+						document.getElementById('logo').src="assets/img/logo/white.png";
+					}
+				} 
+			});
+		}); 
+		myCollapsible.addEventListener('shown.bs.collapse', event => {
+			document.getElementById('navbar_top').classList.add('fixed-top');
+			document.getElementById('btn-login').classList.remove('btn-outline-light');
+			document.getElementById('btn-login').classList.add('btn-outline-primary');
+			document.getElementById('btn-antrian').classList.remove("btn-light");
+			document.getElementById('btn-antrian').classList.add("btn-primary");
+
+			document.getElementById('logo').src="assets/img/logo/colored.png";
+		})
+		myCollapsible.addEventListener('hidden.bs.collapse', event => {
+			if (window.scrollY < 300) {
+				document.getElementById('navbar_top').classList.remove('fixed-top');
+				document.getElementById('btn-login').classList.remove('btn-outline-primary');
+				document.getElementById('btn-antrian').classList.remove("btn-primary");
+				document.getElementById('btn-login').classList.add('btn-outline-light');
+				document.getElementById('btn-antrian').classList.add("btn-light");
+				document.getElementById('logo').src="assets/img/logo/white.png";
+			}
+		})
+	</script>
+</body>
+</html>
